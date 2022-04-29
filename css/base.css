@@ -18,18 +18,13 @@ footer {
 
 header {
     margin: 1rem auto;
-    /* border: 1px solid #1e91d6; */
     padding: 1rem;
-    /* background-color: #b2ddf7; */
-    background-color: #ad2c42;
     display: grid;
     grid-template-columns: 200px 1fr;
-    align-items: center;
     border-radius: 25px;
 }
 
 header img {
-    width: 100%;
     border-radius: 25px;
 }
 
