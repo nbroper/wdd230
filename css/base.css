@@ -22,10 +22,13 @@ header {
     display: grid;
     grid-template-columns: 200px 1fr;
     border-radius: 25px;
+    align-items: center;
+    background-color: #ad2c42;
 }
 
 header img {
     border-radius: 25px;
+    width: 100%;
 }
 
 h1 {
