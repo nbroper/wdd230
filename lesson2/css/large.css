@@ -1,8 +1,9 @@
-@media only screen and (min-width: 65em) {
+/* @media only screen and (min-width: 65em) {
     header,
     main {
         margin: .75rem auto;
         max-width: 1060px;
+        width: 100%;
     }
     main {
         grid-template-columns: 1fr 1fr 1fr;
@@ -10,4 +11,7 @@
     main section:nth-child(3) {
         grid-column: span 1;
     }
-}
+    header img {
+        width: 100%;
+    }
+} */
