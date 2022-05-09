@@ -41,6 +41,26 @@ nav ul li a {
     justify-content: center;
 }
 
+h2,
+h3,
+h4 {
+    color: #003049;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    text-decoration: underline;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
 footer {
     align-items: center;
     text-align: center;
