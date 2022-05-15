@@ -1,0 +1,27 @@
+/* Medium Screen View */
+
+@media (min-width: 32.5em) {
+    nav button {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        margin-left: 2vw;
+    }
+    /* .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    header img {
+        width: 100%;
+    } */
+}

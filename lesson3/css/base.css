@@ -8,29 +8,25 @@
 header,
 main,
 footer {
-    max-width: 750px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 header,
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #f77f00;
     text-align: center;
     color: #fff;
 }
 
-nav {
+nav ul {
+    list-style: none;
+    margin: 0;
     background-color: #003049;
+    display: flex;
 }
 
-nav ul li a {
-    list-style-type: none;
-    /* display: flex;
-    flex-flow: column; */
-    text-align: center;
+nav a {
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;

@@ -1,0 +1,161 @@
+/* Small Screen View */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #fcbf49;
+    color: #fff;
+    max-width: 900px;
+}
+
+.logo,
+.headings,
+.social nav {
+    margin: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 1.5rem;
+}
+
+.social {
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.social img {
+    width: 25px;
+    height: auto;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul.open {
+    display: block;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 1rem;
+    text-align: left;
+    text-decoration: none;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+#hamburgerButton span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerButton span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerButton.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerButton.open span:nth-child(2) {
+    display: block;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .5rem;
+    padding: 1rem;
+}
+
+.heroImage,
+.event,
+.weather,
+.newsRelease,
+.spotlight {
+    background-color: #eae2b7;
+    height: 175px;
+    margin: 1rem;
+    padding: 1.5rem;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    background-color: #fcbf49;
+    color: #fff;
+}
+
+.footerLogo img {
+    width: 160px;
+    height: auto;
+}
+
+.footAddress h3 {
+    font-size: 1.5rem;
+}
